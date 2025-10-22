@@ -1,0 +1,110 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 2,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 2,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1759575611653,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 2,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1759575614500,
+        "loadTestEnvironmentEnd": 1759575611817,
+        "loadTestEnvironmentStart": 1759575611722,
+        "runtime": 2682,
+        "setupAfterEnvEnd": 1759575612063,
+        "setupAfterEnvStart": 1759575612063,
+        "setupFilesEnd": 1759575611818,
+        "setupFilesStart": 1759575611818,
+        "slow": false,
+        "start": 1759575611818
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\Lenovo\\Documents\\api\\__tests__\\getUser.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Get List User -- Positive Case"
+          ],
+          "duration": 741,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Expect takes at most one argument.\n    at expect (C:\\Users\\Lenovo\\Documents\\api\\node_modules\\expect\\build\\index.js:2104:11)\n    at Object.expect [as expectStatus] (C:\\Users\\Lenovo\\Documents\\api\\base\\expectResp.js:16:3)\n    at Object.expectStatus (C:\\Users\\Lenovo\\Documents\\api\\__tests__\\getUser.js:11:8)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+          ],
+          "fullName": "Get List User -- Positive Case I can get list user and its detail by page number 2",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "startAt": 1759575613100,
+          "status": "failed",
+          "title": "I can get list user and its detail by page number 2"
+        },
+        {
+          "ancestorTitles": [
+            "Get User -- Positive Case"
+          ],
+          "duration": 607,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Expect takes at most one argument.\n    at expect (C:\\Users\\Lenovo\\Documents\\api\\node_modules\\expect\\build\\index.js:2104:11)\n    at Object.expect [as expectStatus] (C:\\Users\\Lenovo\\Documents\\api\\base\\expectResp.js:16:3)\n    at Object.expectStatus (C:\\Users\\Lenovo\\Documents\\api\\__tests__\\getUser.js:21:8)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+          ],
+          "fullName": "Get User -- Positive Case I can get detail user by ID 2",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "startAt": 1759575613852,
+          "status": "failed",
+          "title": "I can get detail user by ID 2"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mGet List User -- Positive Case › I can get list user and its detail by page number 2\u001b[39m\u001b[22m\n\n    Expect takes at most one argument.\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 14 |\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 15 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m expectStatus \u001b[33m=\u001b[39m (response\u001b[33m,\u001b[39m expectedStatus) \u001b[33m=>\u001b[39m {\u001b[22m\n\u001b[2m    \u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 16 |\u001b[39m   expect((response)\u001b[33m.\u001b[39mstatus\u001b[33m,\u001b[39m \u001b[32m`Reason: Wrong HTTP Status Code ${output(response).text}`\u001b[39m)\u001b[33m.\u001b[39mtoEqual(expectedStatus)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m    |\u001b[39m   \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 17 |\u001b[39m }\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 18 |\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 19 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m expectEqual \u001b[33m=\u001b[39m (response\u001b[33m,\u001b[39m actualData\u001b[33m,\u001b[39m expectedBody) \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat expect (\u001b[22m\u001b[2mnode_modules/expect/build/index.js\u001b[2m:2104:11)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.expect [as expectStatus] (\u001b[22m\u001b[2mbase/expectResp.js\u001b[2m:16:3)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.expectStatus (\u001b[22m\u001b[2m\u001b[0m\u001b[36m__tests__/getUser.js\u001b[39m\u001b[0m\u001b[2m:11:8)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mGet User -- Positive Case › I can get detail user by ID 2\u001b[39m\u001b[22m\n\n    Expect takes at most one argument.\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 14 |\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 15 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m expectStatus \u001b[33m=\u001b[39m (response\u001b[33m,\u001b[39m expectedStatus) \u001b[33m=>\u001b[39m {\u001b[22m\n\u001b[2m    \u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 16 |\u001b[39m   expect((response)\u001b[33m.\u001b[39mstatus\u001b[33m,\u001b[39m \u001b[32m`Reason: Wrong HTTP Status Code ${output(response).text}`\u001b[39m)\u001b[33m.\u001b[39mtoEqual(expectedStatus)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m    |\u001b[39m   \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 17 |\u001b[39m }\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 18 |\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 19 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m expectEqual \u001b[33m=\u001b[39m (response\u001b[33m,\u001b[39m actualData\u001b[33m,\u001b[39m expectedBody) \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat expect (\u001b[22m\u001b[2mnode_modules/expect/build/index.js\u001b[2m:2104:11)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.expect [as expectStatus] (\u001b[22m\u001b[2mbase/expectResp.js\u001b[2m:16:3)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.expectStatus (\u001b[22m\u001b[2m\u001b[0m\u001b[36m__tests__/getUser.js\u001b[39m\u001b[0m\u001b[2m:21:8)\u001b[22m\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "wasInterrupted": false
+}
